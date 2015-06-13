@@ -1,0 +1,160 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.3.27
+RVersion: 3.2.0
+Repos: CRAN=http://rweb.quant.ku.edu/cran/
+
+Package: BH
+Source: CRAN
+Version: 1.58.0-1
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+Hash: 40dff191bf683de95a0b131f9509647e
+
+Package: RCurl
+Source: CRAN
+Version: 1.95-4.6
+Requires: bitops
+Hash: f07380ac0925611455ecf9dcdb8be545
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.6
+Hash: 193916618dce89b287517f457de8fa8b
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: 67d0775189fd0041d95abca618c5c07e
+
+Package: brew
+Source: CRAN
+Version: 1.0-6
+Hash: 931f9972deae0f205e1c78a51f33149b
+
+Package: curl
+Source: CRAN
+Version: 0.8
+Hash: 1aefe4cad8b04dbe6602b803e231a281
+
+Package: devtools
+Source: CRAN
+Version: 1.8.0
+Requires: RCurl, digest, evaluate, git2r, httr, jsonlite, memoise,
+    roxygen2, rstudioapi, rversions, whisker
+Hash: 908d926757f793f385049f4f140e7313
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: de202f956596a476d09304e3a2ebf1e5
+
+Package: evaluate
+Source: CRAN
+Version: 0.7
+Requires: stringr
+Hash: a60973dc1469b851e9b099b7e47043b5
+
+Package: git2r
+Source: CRAN
+Version: 0.10.1
+Hash: f0d21be15e38774dd93472fc83547068
+
+Package: htmltools
+Source: CRAN
+Version: 0.2.6
+Requires: digest
+Hash: 595e7dea94f5f049dfc1ed739f5161af
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.2
+Requires: Rcpp
+Hash: 2313c5269a97eddd06e93ed977eb5478
+
+Package: httr
+Source: CRAN
+Version: 0.6.1
+Requires: R6, RCurl, digest, jsonlite, mime, stringr
+Hash: eeb18e89b548705fede4db34ab01589b
+
+Package: jsonlite
+Source: CRAN
+Version: 0.9.16
+Hash: 24d362a166a96ac1969e64ede522c717
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
+Package: memoise
+Source: CRAN
+Version: 0.2.1
+Requires: digest
+Hash: 812e6a1dd77a0ca4da41f3239de8e447
+
+Package: mime
+Source: CRAN
+Version: 0.3
+Hash: 629133973445ad75e5438a2bb6b05c17
+
+Package: packrat
+Source: github
+Version: 0.4.3-27
+Hash: d5ae942b22b15403bd3739d67ac9dcb7
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: 1a91cdb290795c24cc0fda94177588b605525674
+
+Package: roxygen2
+Source: CRAN
+Version: 4.1.1
+Requires: Rcpp, brew, digest, stringr
+Hash: cb8a42732d3f42541c6f861352894a0e
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.3.1
+Hash: 88eea830c60277b858ce9334041b08bb
+
+Package: rversions
+Source: CRAN
+Version: 1.0.1
+Requires: curl, xml2
+Hash: 8bc19dce8346dd90636de60cdaa74f59
+
+Package: shiny
+Source: CRAN
+Version: 0.12.0
+Requires: R6, digest, htmltools, httpuv, jsonlite, mime, xtable
+Hash: a0220708ea8fe5201e711e07e741f3a9
+
+Package: stringi
+Source: CRAN
+Version: 0.4-1
+Hash: 5f5be3e0eaf1ce0228196e80c47b0ab3
+
+Package: stringr
+Source: CRAN
+Version: 1.0.0
+Requires: magrittr, stringi
+Hash: 2676dd5f88890910962b733b0f9540e1
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 803d662762e532705c2c066a82d066e7
+
+Package: xml2
+Source: CRAN
+Version: 0.1.1
+Requires: BH, Rcpp
+Hash: 289ef3784f5b16f322ff88cfb6e90ff0
+
+Package: xtable
+Source: CRAN
+Version: 1.7-4
+Hash: 30ed90ebdd90a529aab31fd6792a8d61
